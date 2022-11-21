@@ -17,7 +17,7 @@ This little site was made with *HTML* and *CSS*. The objective was to replicate 
 
 You can check the project's repository [here](https://github.com/GracilianoOG/fementor-qrcode) or the live preview [here](https://gracilianoog.github.io/fementor-qrcode/).
 
-![Image of the solution](./images/screenshot.png)
+![Image of the solution](./assets/images/screenshot.png)
 
 ## 📌 More Info
 
