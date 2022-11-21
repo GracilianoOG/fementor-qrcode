@@ -8,5 +8,43 @@
 }
 
 * {
+    border: none;
+    box-sizing: border-box;
     font-family: 'Outfit', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--light-gray);
+}
+
+.container {
+    background-color: var(--white);
+    border-radius: 1rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+    padding: 1rem 1rem 2rem;
+    width: 320px;
+}
+
+.container__image {
+    border-radius: .75rem;
+    width: 100%;
+}
+
+.container__title, .container__subtitle, .attribution {
+    text-align: center;
+}
+
+.container__title {
+    color: var(--dark-blue);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.container__subtitle {
+    color: var(--grayish-blue);
+    font-size: 1rem;
+    font-weight: 400;
 }
