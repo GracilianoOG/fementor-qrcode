@@ -1,10 +1,17 @@
 @import url("./base.css");
 
 .container {
+    /* Centering div */
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+
+    /* Styling the container */
     background-color: var(--white);
     border-radius: 1rem;
-    margin: 1rem auto 0;
-    max-width: 325px;
+    margin: 0 auto;
+    width: 325px;
     padding: 1rem 1rem 2rem;
 }
 
