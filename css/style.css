@@ -19,13 +19,16 @@ body {
     background-color: var(--light-gray);
 }
 
+a {
+    text-decoration: none;
+}
+
 .container {
     background-color: var(--white);
     border-radius: 1rem;
-    margin: 0 auto;
-    margin-top: 1rem;
+    margin: 1rem auto 0;
+    max-width: 325px;
     padding: 1rem 1rem 2rem;
-    width: 320px;
 }
 
 .container__image {
@@ -34,17 +37,27 @@ body {
 }
 
 .container__title, .container__subtitle, .attribution {
+    margin: 1.25rem auto 0;
+    max-width: 280px;
     text-align: center;
 }
 
 .container__title {
     color: var(--dark-blue);
-    font-size: 1.5rem;
+    font-size: 1.375rem;
     font-weight: 700;
 }
 
 .container__subtitle {
     color: var(--grayish-blue);
-    font-size: 1rem;
+    font-size: 0.9375rem;
     font-weight: 400;
+}
+
+.attribution__text {
+    color: var(--grayish-blue);
+}
+
+.attribution__link {
+    color: var(--dark-blue);
 }
