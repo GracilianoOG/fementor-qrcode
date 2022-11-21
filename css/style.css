@@ -18,9 +18,19 @@
     padding: 1rem 1rem 2rem;
 }
 
-.container__image {
+.container__qr {
     border-radius: .75rem;
+    overflow: hidden;
+}
+
+.container__image {
+    display: block;
+    transition: transform 200ms ease-out;
     width: 100%;
+}
+
+.container__image:hover {
+    transform: scale(1.25);
 }
 
 .container__title, .container__subtitle, .attribution {
@@ -47,4 +57,9 @@
 
 .attribution__link {
     color: var(--dark-blue);
+    transition: opacity 150ms;
+}
+
+.attribution__link:hover {
+    opacity: 0.8;
 }
