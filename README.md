@@ -2,22 +2,20 @@
 
 ## 📖 Description
 
-This little site was made with *HTML* and *CSS*. The objective was to replicate the design provided by *Frontend Mentor* website. Since the sketch and Figma files are premium only, I used the images and Style Guide provided to make it.
+This little site was made with *HTML* and plain *CSS*. The objective was to replicate the design provided by *Frontend Mentor* website. Since the sketch and Figma files are premium only, I used the images and Style Guide provided to make it.
 
 ## 🔨 Technologies
 
-<div style="display: inline-block">
-  <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
-  <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
-  <img src="https://img.shields.io/badge/VSCODE-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VSCODE"/>
-  <img src="https://img.shields.io/badge/GIT-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-</div>
+* HTML
+* CSS + Custom Properties
+* BEM
+* Coded with Visual Studio Code
 
-## 🖼️ Image
+## 🖼️ Screenshot
 
-You can check the project's repository [here](https://github.com/GracilianoOG/fementor-qrcode) or the live preview [here](https://gracilianoog.github.io/fementor-qrcode/).
+You can check the project's [repository here](https://github.com/GracilianoOG/fementor-qrcode) or the live [preview here](https://gracilianoog.github.io/fementor-qrcode/).
 
-![Image of the solution](./assets/images/screenshot.png)
+![Image of the solution](./screenshots/screenshot.png)
 
 ## 📌 More Info
 
