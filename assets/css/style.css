@@ -2,9 +2,12 @@
 
 .wrapper {
     align-items: center;
+    background-color: var(--light-gray);
     display: flex;
-    min-height: 100vh;
+    flex-direction: column;
     justify-content: center;
+    min-height: 100vh;
+    padding: 0 1rem;
 }
 
 .qrcode {
@@ -14,7 +17,7 @@
     background-color: var(--white);
     border-radius: 1rem;
     max-width: 325px;
-    margin: 1rem;
+    margin: 1rem 0;
     padding: 1rem 1rem 2rem;
 }
 
@@ -58,19 +61,22 @@
     font-weight: 400;
 }
 
-.qrcode__attribution {
+.attribution {
     font-style: italic;
+    text-align: center;
 }
 
-.qrcode__attribution__text {
+.attribution__text {
     color: var(--grayish-blue);
+    font-size: .85rem;
+    line-height: 1rem;
 }
 
-.qrcode__attribution__link {
+.attribution__link {
     color: var(--dark-blue);
     transition: opacity 150ms;
 }
 
-.qrcode__attribution__link:hover {
+.attribution__link:hover {
     opacity: 0.8;
 }
