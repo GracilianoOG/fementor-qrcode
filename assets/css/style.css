@@ -3,7 +3,7 @@
 .wrapper {
     align-items: center;
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
     justify-content: center;
 }
 
@@ -42,7 +42,7 @@
     margin: 1.25rem auto 0;
 }
 
-.qrcode__text:nth-of-type(2) {
+.qrcode__attribution__contact > .qrcode__text {
     margin: 0 auto;
 }
 
@@ -56,6 +56,10 @@
     color: var(--grayish-blue);
     font-size: 0.9375rem;
     font-weight: 400;
+}
+
+.qrcode__attribution {
+    font-style: italic;
 }
 
 .qrcode__attribution__text {
