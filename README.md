@@ -27,3 +27,6 @@ This was a very simple and fun challenge provided by **Frontend Mentor**.
 * [🔍 QR Code Challenge](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H)
 * [🔍 Centering a Container](https://www.freecodecamp.org/news/how-to-center-a-div-with-css-10-different-ways/)
 * [🔍 Removing extra spaces from divs](https://tutorialschools.com/Html/how-to-remove-extra-space-below-image-inside-div)
+* [🔍 Address Tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address)
+* [🔍 Article Tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article)
+* [🔍 Figure Tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure)
